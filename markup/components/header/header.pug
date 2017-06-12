@@ -1,0 +1,17 @@
+mixin header(data)
+    +b.HEADER.header
+        +e.A(href="#").logo-wrap
+            +e.IMG(src="static/img/content/logo.svg").logo
+        +b.NAV.navigation
+            +e.A(href="#").item About us
+            +e.A(href="#").item Getting started
+
+
+mixin header-oops(data)
+    +b.HEADER.header
+        +e.A(href="#").logo-wrap
+            +e.IMG(src="static/img/content/logo-oops.svg").logo
+        +b.NAV.navigation
+            +e.A(href="#").item About us
+            +e.A(href="#").item Getting started
+

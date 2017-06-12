@@ -1,0 +1,44 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-width: 320px;
+    font-family: 'Avenir Next', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #6441A5;
+}
+
+.container {
+    padding: 24px;
+    @media ($tab) {
+        padding: 56px 56px 32px 56px;
+    }
+    @media ($desc1) {
+        width: 960px;
+        padding: 56px 32px 32px 32px;
+        margin: 0 auto;
+    }
+    @media ($desc2) {
+        padding: 60px 0 32px 0;
+    }
+}
+
+.mob-hidden {
+    display: none;
+    font-style: normal;
+    @media ($tab) {
+        display: inline-block;
+    }
+}
+
